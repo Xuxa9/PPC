@@ -1,0 +1,121 @@
+body {
+    color: #333;
+    background-color: #ffffffe3;
+    line-height: 1.6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+a {
+color: #333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 9vw;
+    color: #333;
+    text-shadow: 0 3px 10px #2a2929;
+    margin: 0;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+a {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #ffa500;
+    text-align: center;
+    padding: 5px 0;
+}
+
+section {
+    padding: 50px 10%;
+    overflow: auto;
+}
+
+header {
+    background-image: url(obr/cap1.png);
+    padding: 150px 30px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    text-align: center;
+    color: #ffa500;
+
+}
+.menu a {
+    display: inline-block;
+    color: #ffa500;
+    text-decoration: none;
+    padding: 20px 35px;
+}
+
+.menu li {
+    display: inline-block; 
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: rgb(72, 71, 70);
+}
+
+.fotoalbum,
+.majitel {
+    background-color: #ede1ca;
+}
+
+.mapa img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.oCepici img {
+    width: 20%;
+    border-radius: 30px;
+    float: left;
+    margin: 10px 30px 10px 0;
+    min-width: 150px;
+}
+
+.oCepici p {
+    padding: 0 25px;
+}
+
+.fotoalbum img {
+    width: 30%;
+    border: 2px solid #ede1ca;
+}
+
+.formular a {
+    padding: 10px;
+    background-color: #ffa500;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #333;
+    font-size: 0.9em;
+    display: inline-block;
+    box-shadow: 0 3px 10px #2a2929;
+}
